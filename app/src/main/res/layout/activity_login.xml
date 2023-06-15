@@ -21,13 +21,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="160dp"
+                android:layout_marginTop="280dp"
                 android:orientation="vertical"
-                android:padding="45dp">
+                android:padding="20dp">
+
 
                 <EditText
-                    android:id="@+id/signup_email"
-                    android:layout_width="320dp"
+                    android:id="@+id/login_email"
+                    android:layout_width="350dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="30dp"
                     android:background="@drawable/orange_border"
@@ -35,51 +36,42 @@
                     android:drawablePadding="8dp"
                     android:hint="Email"
                     android:padding="8dp"
+                    android:layout_gravity="center"
                     android:textColor="@color/gray" />
 
                 <EditText
-                    android:id="@+id/signup_password"
-                    android:layout_width="320dp"
+                    android:id="@+id/login_password"
+                    android:layout_width="350dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/orange_border"
                     android:drawableLeft="@drawable/baseline_lock_24"
                     android:drawablePadding="8dp"
+                    android:layout_gravity="center"
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:padding="8dp"
                     android:textColor="@color/gray" />
 
-                <EditText
-                    android:id="@+id/signup_confirm"
-                    android:layout_width="320dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/orange_border"
-                    android:drawableLeft="@drawable/baseline_password_24"
-                    android:drawablePadding="8dp"
-                    android:hint="Confirm Password"
-                    android:inputType="textPassword"
-                    android:padding="8dp"
-                    android:textColor="@color/gray" />
 
                 <Button
                     android:id="@+id/signup_button"
-                    android:layout_width="320dp"
+                    android:layout_width="350dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="30dp"
-                    android:text="Sign Up"
+                    android:text="Login"
+                    android:layout_gravity="center"
                     android:textSize="18sp"
                     app:cornerRadius="30dp" />
 
                 <TextView
-                    android:id="@+id/loginRedirectText"
+                    android:id="@+id/signupRedirectText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="8dp"
                     android:padding="8dp"
-                    android:text="Already an user? Login"
+                    android:text="New user? Create account"
                     android:textColor="@color/orange"
                     android:textSize="18sp" />
 
