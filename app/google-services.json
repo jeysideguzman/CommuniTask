@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "499256105881",
+    "project_id": "loginsignup-auth-35bc9",
+    "storage_bucket": "loginsignup-auth-35bc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499256105881:android:73ceea65ebc48b8a299108",
+        "android_client_info": {
+          "package_name": "com.jeysi.communitask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499256105881-6fdhgnukhp3c1dvp0cerma35134hl6e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC34wd5ONK9wzUw4XVExisD_DG5Mbchsog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499256105881-6fdhgnukhp3c1dvp0cerma35134hl6e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
