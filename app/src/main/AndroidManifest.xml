@@ -24,14 +24,34 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommuniPointsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommuniDayActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".InsightsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash2"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".SignupActivity"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
