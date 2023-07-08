@@ -8,8 +8,8 @@
     tools:context=".Splash">
 
     <ImageView
-        android:layout_width="347dp"
-        android:layout_height="301dp"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
         android:src="@drawable/chandaralogo"

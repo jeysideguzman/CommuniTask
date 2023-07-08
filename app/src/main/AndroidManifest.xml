@@ -27,21 +27,9 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".CommuniPointsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CommuniDayActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".InsightsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
             android:name=".Splash2"
             android:exported="true" />
+
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
